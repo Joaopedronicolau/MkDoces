@@ -20,7 +20,7 @@ type Movimentacao = {
   criado_em: string
   produtos: {
     nome: string
-  } | null
+  }[] | null
 }
 
 export default function EstoquePage() {
@@ -530,10 +530,7 @@ export default function EstoquePage() {
                   className="movement"
                 >
                   <strong>
-                    {
-                      movimentacao
-                        .produtos?.nome
-                    }
+                    {movimentacao.produtos?.[0]?.nome}
                   </strong>
 
                   <p
