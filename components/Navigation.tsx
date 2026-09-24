@@ -94,22 +94,7 @@ export default function Navigation() {
         </div>
       </header>
 
-      {/* CABEÇALHO MOBILE */}
-      <header className="mobile-navigation">
-        <a
-          href="/dashboard"
-          className="mobile-brand"
-        >
-          <div className="navigation-logo-icon">
-            🍫
-          </div>
-
-          <div>
-            <strong>MK Doces</strong>
-            <span>Gestão de vendas</span>
-          </div>
-        </a>
-      </header>
+      
 
       {/* MENU INFERIOR MOBILE */}
       <nav className="mobile-bottom-navigation">
